@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Wish/static/css/main.3dd701cc.css",
+    "main.js": "/Wish/static/js/main.36c08827.js",
+    "static/media/bg.jpg": "/Wish/static/media/bg.c27f793ec154f971cc6b.jpg",
+    "static/media/Slytherin.webp": "/Wish/static/media/Slytherin.6aa71305cc1d54f187b5.webp",
+    "static/media/HSESlab-Italic.otf": "/Wish/static/media/HSESlab-Italic.0f174ff9d7dea81c15f1.otf",
+    "static/media/HSESlab-Regular.otf": "/Wish/static/media/HSESlab-Regular.4736f256cb723e66fd31.otf",
+    "static/media/Ravenclaw.webp": "/Wish/static/media/Ravenclaw.7b511016a30979923fa0.webp",
+    "static/media/Gryffindor.webp": "/Wish/static/media/Gryffindor.8b654cb916bd4db53b52.webp",
+    "static/media/Hufflepuff.webp": "/Wish/static/media/Hufflepuff.5ae26005456f38d64946.webp",
+    "static/media/logo.svg": "/Wish/static/media/logo.f3b4ecfdfe52cce71d1f3b34f3c139b2.svg",
+    "index.html": "/Wish/index.html",
+    "main.3dd701cc.css.map": "/Wish/static/css/main.3dd701cc.css.map",
+    "main.36c08827.js.map": "/Wish/static/js/main.36c08827.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dd701cc.css",
+    "static/js/main.36c08827.js"
+  ]
+}
