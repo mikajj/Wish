@@ -1,5 +1,6 @@
 {
-  "name": "Wishes",
+  "homepage": "https://mikajj.github.io/Wish",
+  "name": "Wish",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
