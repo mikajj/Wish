@@ -1,0 +1,53 @@
+.section {
+    width: 100%; 
+    height: auto;  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #102D69;
+    background-image: url(../../images/bg.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    background-blend-mode: multiply;
+}
+
+.content {
+    width: 76%;
+    margin: 90px auto;
+
+    color: #fff;
+
+}
+
+.title {
+    h1 {
+        font-family: 'HSE Slab Black', sans-serif;
+        font-size: 62px;
+        letter-spacing: 5px;
+    
+        padding-bottom: 25px;
+    }
+}
+
+.text {
+    font-size: 28px;
+    text-align: justify;
+
+    & br {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .title h1 {
+        font-size: 36px;
+        letter-spacing: 2px;
+    }
+    .text {
+        font-size: 18px;
+        text-align: left;
+        
+    }
+}

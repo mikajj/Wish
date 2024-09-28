@@ -1,0 +1,101 @@
+.section {
+    width: 100%; 
+    height:auto;  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ededed;
+}
+
+.content {
+    width: 76%;
+    margin: 90px auto;
+
+    transition: all 0.3s ease-in-out;
+
+    color: #102D69;
+
+}
+
+.title {
+    display: flex;
+
+    justify-content: start;
+    flex-direction: column;
+
+    & h1 {
+        font-family: 'HSE Slab Black', sans-serif;
+        font-size: 62px;
+        font-weight: 800;
+        
+        letter-spacing: 5px;
+    }
+
+    & p {
+        font-size: 28px;
+    }
+    
+    padding-bottom: 25px;
+}
+
+.price {
+    font-size: 28px;
+    letter-spacing: 1px;
+    transition: color 0.3s ease-in-out;
+    position: relative;
+    & h1 {
+        font-size: 64px !important;
+    }
+    &:not(.blurred) {
+        filter: blur(0px);
+        animation: blur-out 0.5s ease-in-out;
+      }
+}
+
+.blurred {
+    filter: blur(20px);
+}
+
+@keyframes blur-out {
+    from {
+      filter: blur(20px);
+    }
+    to {
+      filter: blur(0px);
+    }
+  }
+
+.spell {
+    margin-top: 60px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    & button {
+        padding: 10px 20px;
+        background-color: #102D69;
+        border: 2px solid #102D69;
+        transition: all 0.3s ease-in-out;
+        border-radius: 40px;
+
+        &:hover {
+            background-color: #fff;
+            color: #102D69;
+        }
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .title h1 {
+        font-size: 36px;
+        letter-spacing: 2px;
+    }
+    .title p, .price , .spell {
+        font-size: 24px;
+    }
+}

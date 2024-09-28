@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import UiHeader from "./components/header/header";
+import UiInfo from "./sections/info/info";
+import UiFaculty from "./sections/faculty/faculty";
+import UiRaiting from "./sections/raiting/raiting";
+import UiPrices from "./sections/prices/prices";
+import UiFooter from "./sections/footer/footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <UiHeader />
+      <UiInfo />
+      <UiFaculty />
+      <UiRaiting />
+      <UiPrices />
+      <UiFooter />
     </div>
   );
 }

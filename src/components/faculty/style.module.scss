@@ -1,0 +1,51 @@
+.item {
+    width: 635px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    justify-self: center;
+    gap: 20px;
+
+    font-size: 20px;
+
+    & h1 {
+        font-family: 'HSE Slab Black', sans-serif;
+        font-size: 48px;
+
+        letter-spacing: 1px;
+    }
+
+    & ul {
+        margin-top: 25px;
+        & li::before {
+            content: '•';
+            padding: 0 10px;
+        }
+    }
+
+    & img {
+        width: 220px;
+        height: 260px;
+
+        transition: transform 0.3s ease-in-out;
+        transform-style: preserve-3d;
+        perspective: 1000px;
+
+        position: relative;
+        z-index: 2;
+
+        object-fit: fill;
+        filter:  drop-shadow(0 0 20px rgba(0, 0, 0, 0.2));
+        &:hover {
+            transform: rotateX(15deg) rotateY(-15deg) scale(1.1);
+        }
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .item {
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+}

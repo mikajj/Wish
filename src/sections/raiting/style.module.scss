@@ -1,0 +1,97 @@
+.section {
+    width: 100%; 
+    height: auto;  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #102D69;
+}
+
+.content {
+    width: 76%;
+    margin: 90px auto;
+
+    color: #fff;
+
+}
+
+.title {
+    display: flex;
+
+    justify-content: start;
+    flex-direction: column;
+
+    & h1 {
+        font-family: 'HSE Slab Black', sans-serif;
+        font-size: 62px;
+        font-weight: 800;
+        
+        letter-spacing: 5px;
+    }
+
+    & p {
+        font-size: 28px;
+    }
+    
+    padding-bottom: 25px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+    & .item {
+        min-width: 30%;
+    }
+    & h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+        font-family: 'HSE Slab Black', sans-serif;
+        letter-spacing: 1px;
+    }
+    & p {
+        font-size: 24px;
+        text-align: justify;
+    }
+}
+
+.post {
+    color: #ffffff;
+    margin: 40px 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.quiz {
+    font-size: 24px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1250px) {
+    .items {
+        flex-direction: column;
+        & .item {
+            min-width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .title h1 {
+        font-size: 36px;
+        letter-spacing: 2px;
+    }
+    .title p {
+        font-size: 24px;
+    }
+    .item  p{
+        font-size: 20px;
+    }
+    .item  h1 {
+        font-size: 36px;
+        letter-spacing: 2px;
+    }
+}

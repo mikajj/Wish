@@ -1,0 +1,45 @@
+footer {
+    width: 100%; 
+    height: auto;  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #102D69;
+}
+
+.content {
+    width: 76%;
+    margin: 30px auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #fff;
+
+}
+
+.title {
+    display: flex;
+
+    justify-content: start;
+    flex-direction: column;
+
+    & h1 {
+        font-family: 'HSE Slab Black', sans-serif;
+        font-size: 62px;
+        font-weight: 800;
+        
+        letter-spacing: 5px;
+    }
+
+    & p {
+        font-size: 28px;
+    }
+}
+
+.info {
+    font-size: 24px;
+}
