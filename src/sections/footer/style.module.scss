@@ -43,3 +43,22 @@ footer {
 .info {
     font-size: 24px;
 }
+
+@media screen and (max-width: 1200px) {
+    .content {
+        flex-direction: column; 
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .title h1 {
+        font-size: 36px;
+        letter-spacing: 2px;
+    }
+    .title p {
+        font-size: 24px;
+    }
+    .info {
+        font-size: 18px;
+    }
+}

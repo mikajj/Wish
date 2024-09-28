@@ -46,7 +46,7 @@
     transition: color 0.3s ease-in-out;
     position: relative;
     & h1 {
-        font-size: 64px !important;
+        font-size: 64px ;
     }
     &:not(.blurred) {
         filter: blur(0px);
@@ -97,5 +97,8 @@
     }
     .title p, .price , .spell {
         font-size: 24px;
+    }
+    .price h1 {
+        font-size: 36px !important;
     }
 }
